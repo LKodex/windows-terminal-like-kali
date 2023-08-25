@@ -5,5 +5,8 @@ AZUL	$E[94;40m
 
 prompt $E[36;40m┌──$C$E[94;40m%USERNAME%@%COMPUTERNAME%$E[36;40m$F-[$E[97;40m$P$E[36;40m]$_└─$E[94;40m$$$E[97;40m$S
 
-LINUX (INCOMPLETO)
-\e[36;40m┌──(\e[94;40m\u@\h\e[36;40m\e)-[\w\e[36;40m]\n└─\e[94;40m\$]
+---
+
+Linux
+.bashrc
+export PS1="┌──(\u@\h)-[\w]\r\n└─\$ "
